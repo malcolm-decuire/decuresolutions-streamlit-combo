@@ -1,0 +1,35 @@
+# Ignore virtual environment folders
+venv/
+.env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore any log files and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore IDE-specific directories (optional, depending on your tools)
+.vscode/
+.idea/
+
+# Ignore Python egg and distribution files
+*.egg-info/
+dist/
+build/
+
+# Ignore test coverage reports
+.coverage
+*.cover
+htmlcov/
+
+# Ignore pipenv and poetry virtual environments (if used)
+Pipfile.lock
+.poetry/
