@@ -1,2 +1,8 @@
+[project]
+name = "decuresolutions-combo"  # Replace with your project's name
+version = "0.1.0"
+description = "Fintech & Adtech"
+requires-python = ">=3.11,<4.0"
+
 [server]
 fileWatcherType = "poll"

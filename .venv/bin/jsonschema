@@ -1,4 +1,4 @@
-#!/Users/malcolmdecuire/Desktop/DECURE-SOLUTIONS-CATALOG-CODEBASE/CODEBASE/active-Q32024_20XX/decuresolutions-streamlit-fintech-combo-app/.venv/bin/python3
+#!/Users/malcolmdecuire/Desktop/DECURE-SOLUTIONS-CATALOG-CODEBASE/CODEBASE/active-Q32024_20XX/decuresolutions-streamlit-fintech-combo-app/.venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
