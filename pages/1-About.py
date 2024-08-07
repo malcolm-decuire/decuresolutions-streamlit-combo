@@ -42,43 +42,57 @@ expander.write('''
 - I am adept at diagnosing client challenges and developing tailored solutions that meet their specific requirements.
 - My proactive approach to identifying opportunities for product and process improvement ensures that we deliver cutting-edge solutions that stay ahead of the competition.
 ''')
-
-
-st.title("❓ Why should you care")
-st.header("💰: Increase your investment acumen")
-st.link_button("🔗 Value Investing","https://www.reddit.com/r/algotrading/comments/93pbwk/using_the_piotroski_f_score_as_a_factor/")
-
-#s1b background about REIT
-st.title("❓ What are REITs")
-st.subheader("5-min. read on REITs")
-st.link_button("🔗 LinkedIn Post", "https://www.linkedin.com/pulse/reits-everything-you-need-know-credence-family-office/")
-
-
-#s1 addtil info- piot
-st.title("❓ Why learn about Piotroski")
-st.link_button("🔗 Quick LinkedIn Summary","https://www.linkedin.com/pulse/piotroski-f-score-its-importance-understanding-/")
-
-#s1c addtl user guide- eod
-st.title("❓ What is EODHD")
-st.header("EODHD is a French based SaaS firm that offers Robust, powerful and easy to use APIs & Ready-to-go solutions")
-st.link_button("🔗 Python docs", "https://eodhd.com/financial-apis/python-financial-libraries-and-code-samples/")
-
-
-#s1a page setup-Style  Allow user to upload their own file
-with open('style.css') as f:
-    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
-#s1c page setup- guide 
-st.title('❓ Why choose EODHD data')
+ 
 st.divider()
-st.write('1. Trade-off between free datasets that bored me vs paid-ones that didnt 😅')
-st.write('2. Needed access to historical data without massive annual contracts (bloomberg is expensive)')
-st.write('3. Its easier to work with data in environments Im already familiar with like Google Sheets, pandas, pyspark, etc')
-st.write('4. :blue[Experiement with rapid-prototyping to simiulate commercial deadlines]')
-
-
-#s1d addtl page set up 
+st.title("❓ About Real Estate Investment Trusts")
+expander = st.expander("Recent Trends")
+expander.write('''
+    ### 1. Increased Adoption of Technology:
+    - REITs have increasingly integrated technology to enhance operational efficiency and improve property management.
+    - Innovations such as property management software, data analytics, and AI-driven decision-making tools are becoming common.
+    - Technology is being leveraged to optimize tenant experiences and streamline property maintenance.
+    
+    ### 2. Focus on Sustainability and ESG Criteria:
+    - There is a growing emphasis on sustainability and Environmental, Social, and Governance (ESG) criteria in the REIT sector.
+    - Investors and stakeholders are prioritizing green building practices, energy-efficient upgrades, and corporate responsibility.
+    - REITs are adopting sustainable practices to attract environmentally-conscious investors and meet regulatory requirements.
+    
+    ### 3. Shift Towards Diversified Asset Classes:
+    - REITs are diversifying their portfolios beyond traditional office and retail spaces to include sectors like logistics, healthcare, and data centers.
+    - This diversification helps mitigate risks and capitalize on emerging market trends.
+    - The pandemic has accelerated interest in sectors such as industrial and residential real estate.
+    
+    ### 4. Increased Focus on Remote Work and Flexible Spaces:
+    - The rise of remote work has influenced REITs to adapt their properties to support flexible working arrangements.
+    - There is a growing demand for co-working spaces and adaptable office environments.
+    - REITs are investing in properties that cater to hybrid work models and offer flexible leasing options.
+    ''')
 st.divider()
+
+st.title("❓ About Adtech")
+expander = st.expander("Recent Trends")
+expander.write('''
+    ### 1. Rise of Programmatic Advertising:
+    - Programmatic advertising like DOOH & instoreOOH, allowing for real-time bidding and automated ad placements.
+    - Advertisers are leveraging data to target specific audiences more precisely and optimize ad spend.
+    - Advances in AI and machine learning are enhancing the efficiency of programmatic ad systems for custom offerings.
+
+    ### 2. Growth of Privacy-First Marketing:
+    - With increasing privacy regulations and concerns, adtech is shifting towards privacy-first approaches.
+    - Technologies such as cookieless tracking and consent management platforms are gaining traction.
+    - Marketers are adopting strategies that comply with regulations while maintaining effective targeting.
+
+    ### 3. Expansion of Omnichannel Advertising:
+    - Omnichannel advertising strategies are becoming more important as brands aim to create seamless customer experiences across various touchpoints.
+    - Integration of online and offline data is enabling more cohesive and personalized advertising campaigns.
+    - Adtech solutions are evolving to support cross-channel measurement and attribution.
+
+    ### 4. Emergence of AI-Driven Creative Optimization:
+    - AI and machine learning are being used to optimize ad creatives in real-time based on performance data.
+    - Automated creative testing and dynamic content generation are becoming standard practices.
+    - These technologies help in improving ad relevance and engagement by tailoring creatives to individual preferences.
+    ''')
+
 
 #s2b reload 
 st.button("🔄 Reload")
