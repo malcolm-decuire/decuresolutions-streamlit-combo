@@ -112,11 +112,7 @@ st.session_state.merged_df = formatted_df
 #s3 Interactive Table
 ###########################
 st.divider()
-st.header("Custom Data Methodology")
-with st.popover("Filter Warnings"):
-    st.markdown("⚠️ Columns to avoid")
-    name = st.write("(exclude: earningAssets, accumulatedAmortization, negativeGoodwill)")
-expander = st.expander("EODHD Data Integration Guide")
+expander = st.expander("EODHD Data Integration Guide (exclude: earningAssets, accumulatedAmortization, negativeGoodwill)")
 
 expander.write('''
 To efficiently manage and analyze financial data using EOD Historical Data (EODHD) in Google Sheets, follow these steps:
